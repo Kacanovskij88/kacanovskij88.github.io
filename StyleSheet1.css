@@ -1,46 +1,51 @@
-﻿body
-{
-background-color: aliceblue;
+﻿
+
+body {
+    background-color: cornflowerblue;
+    background-image: url("1.jpg");
+    background-size: cover;
 }
 
 
-    h1 {
-
-    color:black;
+h1 {
+    
+    color: black;
     text-align: center;
 }
 
-    p {
-    font-family: Verdana;
+p {
+   
+    font-weight:100;
     font-size: 25px;
     text-align: center;
-   
 }
+
+
    #phone {
        padding-top: 50px;
    }
 
 .tab {
     text-align: center;
-   
+  
     margin: auto;
     width:auto;
     
 }
 
 .MyButton {
-    background-color: aqua;
+    background-color: aquamarine;
     float: inherit;
     border: none;
-   
     cursor: pointer;
     padding: 20px 25px;
     border-radius: 50px;
 }
 
-.MyButton:hover {
-    background-color:aliceblue;
-}
+    .MyButton:hover {
+        background-color: aliceblue;
+   
+    }
 
 
 
@@ -53,8 +58,12 @@ background-color: aliceblue;
 }
 
 #footer {
-    text-align:center;
+    color: aquamarine;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5em;
+    
+}
+
 }
