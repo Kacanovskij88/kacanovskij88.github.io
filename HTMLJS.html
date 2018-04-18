@@ -135,44 +135,75 @@
 
     </script>
     <script>
-          /* Iteration 2
-        for (i = 1; i <= 10; i++) {
-            if (i % 2) {
+        /* Iteration 2
+      for (i = 1; i <= 10; i++) {
+          if (i % 2) {
 
-            } else {
-                console.log(i);
-            }
-            
-        }
-        */
+          } else {
+              console.log(i);
+          }
+
+      }
+      */
 
     </script>
     <script>
         /* Iteration 3 - Fizz Buzz
         for (var i = 1; i <= 100; i++) {
             if (i % 3 == 0) {
-                document.write("<br>Fizz");
+                document.write("<br>Fizz" + i);
             }
             else if (i % 5 == 0) {
-                document.write("<br>Buzz");
+                document.write("<br>Buzz" + i);
             }
             else if (i % 3 & i % 5 == 0) {
-                document.write("<br>FizzBuzz");
+                document.write("<br>FizzBuzz" + 1);
             } else document.write("<br>" + i);
 
         } */
 
     </script>
 
-    <script>
 
-        var number = prompt("");
-        for (var i = 1; i <= 20; i++) {
-            if (i % 3) {
-                document.write(i);
-            }
-            
+    <script>
+        /* Iteration4 TO DO IT LATER
+         *function Threes(collection) {
+                     var newArray = []
+                     for (var i = 0; i < collection.length; i++) {
+                         if (myArray[i] % 3 === 0) {
+                             newArray.push(collection[i])
+                         } else ()
+                     }
+                     return newArray;
+                 } */
     </script>
+
+    <script>
+        /* Strings4 TO DO IT LATER
+              var search = /\b[0-9]{3}[A-Za-z]\b/;
+              var string = promt("letters");
+              var srcString = string.match(search);
+              document.write();
+              */
+    </script>
+
+
+<!-- DOM1 isn't done yet-->
+    <p>Tag</p>
+  
+    <button onclick="btnFunction()">Click</button>
+    <button id="Remove" style="visibility:hidden">Click</button>
+    <script>
+        function btnFunction() {
+            var btn = document.createElement("BUTTON");
+            var t = document.createTextNode("CLICK ME");
+            btn.appendChild(t);
+            document.body.appendChild(btn);
+        } 
+
+
+    </script>
+
 
 </body>
 </html >
