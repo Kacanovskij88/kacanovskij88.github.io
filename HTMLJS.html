@@ -166,42 +166,69 @@
 
 
     <script>
-        /* Iteration4 TO DO IT LATER
-         *function Threes(collection) {
-                     var newArray = []
-                     for (var i = 0; i < collection.length; i++) {
-                         if (myArray[i] % 3 === 0) {
-                             newArray.push(collection[i])
-                         } else ()
-                     }
-                     return newArray;
-                 } */
+        /* Iteration4
+         *
+var int1 = prompt("input number");
+var int2 = parseInt(int1);
+document.write("input is " + int2);
+
+for(i=1; int2>1; i++){
+if((int2%3) == 0){
+        int2=int2/3;
+        document.write("<br/> divided by 3 is "+ int2 + " and iterations number is "+ i);
+}
+
+else if (((int2 - 1) % 3) == 0) {
+        int2=((int2 - 1)/3);
+        document.write("<br/> minus 1 and divide by 3 is " + int2 + " and iterations number is "+ i);
+}
+
+else if (((int2+1)%3)==0){
+        int2=((int2 + 1)/3);
+        document.write("<br/> plus 1 and divided by 3 is " + int2 + " and iterations number is "+ i);
+}
+} */
     </script>
 
     <script>
-        /* Strings4 TO DO IT LATER
-              var search = /\b[0-9]{3}[A-Za-z]\b/;
-              var string = promt("letters");
-              var srcString = string.match(search);
-              document.write();
-              */
+      
+ /* String4 
+        var string = prompt("Enter your text here");
+        var trippleNum = 0;
+        for (i = 1; i < string.length; i++) {
+            if (((string[i]) == (string[i-1])) && ((string[i]) == (string[i+1]))) {
+                trippleNum++;
+            }
+        }
+
+        document.write("the tripple ammount is: " + trippleNum);
+        */
+
     </script>
 
+    
 
-<!-- DOM1 isn't done yet-->
-    <p>Tag</p>
-  
-    <button onclick="btnFunction()">Click</button>
-    <button id="Remove" style="visibility:hidden">Click</button>
+    <p>Tag</p> //DOM not finished, can't imagine how to do that sh**'
+
+    <input type="text" id="myText" value="Mickey">
+    <br><button onclick="btnFunction()">Click</button>
+    <br><button onclick="newParagraph()">New Paragraph</button>
+
     <script>
         function btnFunction() {
             var btn = document.createElement("BUTTON");
-            var t = document.createTextNode("CLICK ME");
+            var t = document.createTextNode("Paragraph"); 
             btn.appendChild(t);
             document.body.appendChild(btn);
+            
+        }
+        function newParagraph(newText) {
+            var btn = document.createElement("button2");
+            var newText = prompt("REMOVE");
+            replaceNode = parentNode 
+            var doc = document.getElementById("myText").value = "";
         } 
-
-
+       
     </script>
 
 
